@@ -1,2 +1,2 @@
-# gengar
-GitGud Programmings backend
+# Gengar
+GitGud Codings Back-End
