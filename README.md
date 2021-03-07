@@ -7,7 +7,7 @@ GitGud Codings Back-End
 
   |-- gengar (back-end)
   
-  |-- gitgudpg (front-end)
+  |-- gitgudcoding (front-end)
 
 
 
