@@ -4,12 +4,8 @@ GitGud Codings Back-End
 # GitGud Coding Project Directory set up 
 
 /gitgudpg - main folder
-
-  |-- gengar (back-end)
-  
-  |-- gitgudcoding (front-end)
-
-
+  /gengar (back-end)
+  /gitgudcoding (front-end)
 
 
 # Getting Set up 
@@ -35,11 +31,20 @@ In Terminal copy and run
 Pls check here https://nodejs.org/en/download/
 
 #### Starting app 
-> cd gengar
+To Build Gengar only run 
+
+> npm run dev
+
+To Build the whole app run 
+
+> npm run start
 > 
-> npm install
-> 
-> npm start
+
+
+### Structure and Rules 
+
+Will Update soon
+
 
 
 
