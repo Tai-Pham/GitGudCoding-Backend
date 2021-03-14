@@ -1,7 +1,7 @@
 # Gengar
 GitGud Codings Back-End
 
-# GitGud Coding Project Directory set up 
+## GitGud Coding Project Set up 
 
 /gitgudpg - main folder
 
