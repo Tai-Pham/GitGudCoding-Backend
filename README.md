@@ -4,7 +4,9 @@ GitGud Codings Back-End
 # GitGud Coding Project Directory set up 
 
 /gitgudpg - main folder
+
   /gengar (back-end)
+  
   /gitgudcoding (front-end)
 
 
