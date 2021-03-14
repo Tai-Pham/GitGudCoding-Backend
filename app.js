@@ -5,10 +5,11 @@ const yaml = require("js-yaml");
 const fs = require("fs");
 const cors = require("cors");
 const db = require("./db");
+const path = require("path");
 const movieRouter = require("./routes/test/test-route.js");
 global.config = yaml.load(fs.readFileSync("./config/ci.yaml", "utf8"));
 
-const apiPort = 3000;
+const apiPort = 5000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());

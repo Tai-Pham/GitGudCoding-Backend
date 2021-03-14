@@ -1,6 +1,4 @@
-test:
-    see: 1
-
-test2:
-    see2: 2
-
+api:
+  leetcode:
+    key: somehash
+    etc: whtever
