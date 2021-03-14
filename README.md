@@ -32,7 +32,7 @@ In Terminal copy and run
 ### Installing Node 
 Pls check here https://nodejs.org/en/download/
 
-#### Starting app 
+## Starting app 
 To Build Gengar only run 
 
 > npm run dev
@@ -43,7 +43,7 @@ To Build the whole app run
 > 
 
 
-### Structure and Rules 
+## Structure and Rules 
 
 Will Update soon
 
