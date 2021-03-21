@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "start": "concurrently \"npm run dev\" \" cd ../ApePy && npm run client\""
+    "start": "concurrently \"npm run dev\" \" cd ../gitgudcoding && npm run client\""
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "googleapis": "^68.0.0",
     "js-yaml": "^4.0.0",
     "mongoose": "^5.11.19",
     "path": "^0.12.7"

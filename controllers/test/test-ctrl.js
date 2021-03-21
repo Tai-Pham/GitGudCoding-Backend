@@ -100,8 +100,6 @@ getMovieById = async (req, res) => {
 
 getMovies = async (req, res) => {
   await Movie.find({}, (err, movies) => {
-    console.log(config);
-
     if (err) {
       return res.status(400).json({ success: false, error: err });
     }
