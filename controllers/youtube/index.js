@@ -13,6 +13,8 @@ const client = google.youtube({
  */
 utubeSearch = async (req, res) => {
   try {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     var numResults = req.resultsSize || 10;
     const results = await client.search.list({
       part: "snippet",
