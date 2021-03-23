@@ -23,7 +23,11 @@ utubeSearch = async (req, res) => {
       order: "relevance",
       q: req.query,
     });
-    res.status(200).json(results.data.items);
+    let ids = [];
+    for (i = 0; i < response.result.items.length; i++) {
+      ids[i] = results.data.items[i].id.videoId;
+    }
+    res.status(200).json(ids);
   } catch {
     res.status(404).json({ message: "Something went wrong" });
   }
