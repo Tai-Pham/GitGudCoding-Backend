@@ -12,22 +12,19 @@ const client = google.youtube({
  * @param searchRequest
  */
 utubeSearch = async (req, res) => {
+  console.log(req.query);
   try {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    var numResults = req.resultsSize || 10;
+    var numResults = req.query.resultsSize || 3;
     const results = await client.search.list({
       part: "snippet",
       type: "video",
       maxResults: numResults,
       order: "relevance",
-      q: req.query,
+      q: req.query.query,
     });
-    let ids = [];
-    for (i = 0; i < response.result.items.length; i++) {
-      ids[i] = results.data.items[i].id.videoId;
-    }
-    res.status(200).json(ids);
+    res.status(200).json(results.data.items);
   } catch {
     res.status(404).json({ message: "Something went wrong" });
   }
