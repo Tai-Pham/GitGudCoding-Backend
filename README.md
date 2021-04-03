@@ -5,7 +5,7 @@ GitGud Codings Back-End
 
 /gitgudpg - main folder
 
-  /gengar (back-end)
+  /GitGud Codings Back-End (back-end)
   
   /gitgudcoding (front-end)
 
